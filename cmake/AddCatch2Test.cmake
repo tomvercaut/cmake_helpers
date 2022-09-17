@@ -26,8 +26,6 @@
 #   APP_DEPENDENCIES: CMake dependencies of the application
 #
 
-find_package(Catch2 3 REQUIRED)
-
 function(add_catch2v3_test)
     set(options VERBOSE)
     set(oneValueArgs APP_NAME CXX_STANDARD APP_OUTPUT_NAME)
