@@ -26,7 +26,7 @@
 #   APP_DEPENDENCIES: CMake dependencies of the application
 #
 
-function(add_catch2v3_test)
+function(add_catch2_test)
     set(options VERBOSE)
     set(oneValueArgs APP_NAME CXX_STANDARD APP_OUTPUT_NAME)
     set(multiValueArgs APP_PRIVATE_SOURCES APP_PRIVATE_LIBRARIES APP_DEPENDENCIES)
