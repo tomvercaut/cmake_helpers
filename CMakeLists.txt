@@ -5,5 +5,5 @@ project(cmake_helpers
         )
 
 include(cmake/AddApp.cmake)
-include(cmake/AddCatch2v3Test.cmake)
+include(cmake/AddCatch2Test.cmake)
 include(cmake/AddLib.cmake)
